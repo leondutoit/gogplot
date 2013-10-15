@@ -5,7 +5,7 @@ I figure any self-respecting data person these days has their own attempt at mak
 
 In all seriousness though, ggplot2 is an absolutely wonderful implementation of the [Grammar of Graphics](http://www.amazon.com/The-Grammar-Graphics-Statistics-Computing/dp/0387245448) and is an indispensible tool for data analysis. Similarly pandas too is a brilliant toolset for working with data in Python. And it actually is a real problem that Python does not have a proper ggplot2-like package.
 
-Various attempts at making such a package are under way. It is great that such projects are underway, but none of them are complete or stable enough yet. So I decided to make the simplest implementation I could think of for my own usage. It might even be more feature complete than the alternatives? I guess I'll find out soon enough :)
+Various attempts at making such a package are under way. That's great but none of them are complete or stable enough yet. So I decided to make the simplest implementation I could think of for my own usage. It might even be more feature complete than the alternatives? I guess I'll find out soon enough :)
 
 ### Dependencies
 
