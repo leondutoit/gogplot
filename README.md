@@ -19,6 +19,6 @@ from gogplot import gogplot
 
 # a simple scatterplot
 df = pd.DataFrame({'x': [1,2,3,4,5], 'y': [33,7,60,5,43]})
-gogplot(df, 'ggplot(data, aes(x, y)) + geom_point()')
+gogplot(df, 'ggplot(df, aes(x, y)) + geom_point()')
 
 ```
