@@ -13,8 +13,8 @@ def gogplot(df, expression):
     """
     df_name = locals().keys()[0]
     df.to_csv("d.csv")
-    get_plot_data = "library(ggplot2);" + df_name + "<-read.csv('d.csv');"
-    print_plot = "pdf(print(" + expression + "))"
+    get_plot_data = "library(ggplot2);%s<-read.csv('d.csv');" % df_name
+    print_plot = "pdf(print(%s))" % expression
     plot = ''.join([get_plot_data, print_plot])
     subprocess.call(["R", "--slave", "-e", plot])
     subprocess.call(["open", "Rplots.pdf"])
