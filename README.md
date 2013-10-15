@@ -1,5 +1,5 @@
 
-### gogplot - ggplot2 from python with pandas
+### gogplot - ggplot2 with pandas from python
 
 I figure any self-respecting data person these days has their own attempt at making [ggplot2](http://ggplot2.org/) available from Python, especially with [pandas](http://pandas.pydata.org/) integration. So I just had to start my own...
 
