@@ -13,12 +13,19 @@ For this to work you will need both Python with pandas and R with ggplot2 instal
 
 ### Quick start
 
+```bash
+$ git clone git@github.com:leondutoit/gogplot.git
+$ cd gogplot
+$ python setup.py install
+$ ipython
+```
+
 ```python
 import pandas as pd
-from gogplot import gogplot
+import gogplot as gp
 
 # a simple scatterplot
 df = pd.DataFrame({'x': [1,2,3,4,5], 'y': [33,7,60,5,43]})
-gogplot(df, 'ggplot(df, aes(x, y)) + geom_point()')
+gp.gogplot(df, 'ggplot(df, aes(x, y)) + geom_point()')
 
 ```

@@ -2,4 +2,5 @@ NA
 Rplots.pdf
 *.pyc
 *.csv
-*~
+*~build
+build/
